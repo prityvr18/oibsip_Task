@@ -1,0 +1,114 @@
+<html>
+    <head>
+        
+        
+           <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+     <link rel="stylesheet" href="calc.css">   
+        
+    <style>
+
+.formstyle{
+    width: 340px;
+    margin:auto;
+    height: 200px;
+    
+   ;
+    
+  
+   
+}
+input{
+color:white;
+    width: 105px;
+    border-radius:30%;
+    
+               
+    margin:auto;
+    
+    opacity:1;
+    height:60px;
+    background:url("");
+    font-size:30px;
+    
+}
+#rsltbox{
+
+    width: 330px;
+    background:url("");
+    
+    margin:auto;
+    
+    
+}
+#clear{
+    width: 330px;
+    height:60px;
+    
+    border-radius:30%;
+    
+    margin:auto;
+}
+#btneffect{
+    border-radius:30%;
+    
+    margin:auto;
+  
+    
+    
+   
+}
+#title{
+text-align:center;
+color:black;
+    
+font-size:30px;
+    margin:auto;
+}
+
+
+    </style>
+    </head>
+        <body>
+        
+          <div id="clock">10:11:12</div>
+        </br> <P id="title"></p>
+            <div class="formstyle">
+                <form 
+                class ="fstyle" name="forms">
+                    <input type="text" name="answer" id="rsltbox">  </br>
+                    <input type="button" value="1" id="btneffect" onclick="forms.answer.value +='1' ">
+                    <input type="button" value="2" id="btneffect" onclick="forms.answer.value +='2' ">
+                    <input type="button" value="3" id="btneffect" onclick="forms.answer.value +='3' ">
+                </br>
+                    <input type="button" value="4" id="btneffect" onclick="forms.answer.value +='4' ">
+                    <input type="button" value="5" id="btneffect" onclick="forms.answer.value +='5' ">
+                    <input type="button" value="6" id="btneffect" onclick="forms.answer.value +='6' ">
+            </br>
+                    <input type="button" value="7" id="btneffect" onclick="forms.answer.value +='7' ">
+                    <input type="button" value="8" id="btneffect" onclick="forms.answer.value +='8' ">
+                    <input type="button" value="9" id="btneffect" onclick="forms.answer.value +='9' ">
+        </br>
+                    <input type="button" value="+" id="btneffect" onclick="forms.answer.value +='+' ">
+                    <input type="button" value="-" id="btneffect" onclick="forms.answer.value +='-' ">
+                    <input type="button" value="*" id="btneffect" onclick="forms.answer.value +='*' ">
+                    
+
+    </br>
+                    <input type="button" value="/" id="btneffect" onclick="forms.answer.value +='/' ">
+                    <input type="button" value="0" id="btneffect" onclick="forms.answer.value +='0' ">
+                    <input type="button" value="=" onclick="forms.answer.value = eval(forms.answer.value) ">
+
+</br>
+<input type="button" value="CLEAR ALL" id="clear" onclick="forms.answer.value ='' ">
+
+
+
+                </form>
+
+            </div>
+            <script src="calc.js"></script>
+        </body>
+   
+</html>

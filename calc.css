@@ -1,0 +1,49 @@
+body {
+    background:url("https://images.hdqwalls.com/download/vilnius-cityscape-4k-el-480x800.jpg");
+      filter: brightness(1000%);
+      position: fixed ;
+      
+      
+       background-size: 100% 100%;
+       background-repeat: no-repeat;
+        align-items: center; flex-wrap: wrap;
+    
+    
+    
+    
+    
+}
+
+
+    
+#clock{
+    width:250px;
+    margin:auto;
+    text-align:center ;
+    font-size:60px;
+    transition:0.1s;
+
+    
+    color:white;
+    border:2px solid white;
+    border-radius:30%;
+    
+    
+       
+        align-items: center; 
+                
+                
+    font-family:cursive;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
