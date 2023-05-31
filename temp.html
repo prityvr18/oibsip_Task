@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+ <html>
+ 
+ <head>
+     <title>Temperature Scale Converter</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+     <link rel="stylesheet" href="temp.css">
+ </head>
+ 
+ <body>
+     <div class="container">
+ 
+         <div class="section">
+             <input id="output" class="output" readonly>
+         </div>
+ 
+         <div class="flex">
+             <select name="scale" id="scale" class="flex-item-1 selectbox">
+                 <option value="c_to_f" selected>°C to °F</option>
+                 <option value="c_to_k">°C to K</option>
+                 <option value="f_to_c">°F to °C</option>
+                 <option value="f_to_k">°F to K</option>
+                 <option value="k_to_c">K to °C</option>
+                 <option value="k_to_f">K to °F</option>
+             </select>
+         </div>
+ 
+         <div class="section keys">
+             <div class="flex">
+                 <button class="btn flex-item-1 funckey" id="clear">C</button>
+                 <button class="btn flex-item-3 operator" id="minus">-</button>
+                 <button class="btn flex-item-3 funckey" id="backspace"><i class="fas fa-backspace"></i></button>
+             </div>
+             <div class="flex">
+                 <button class="btn flex-item-1" id="numkey">7</button>
+                 <button class="btn flex-item-2" id="numkey">8</button>
+                 <button class="btn flex-item-3" id="numkey">9</button>
+             </div>
+             <div class="flex">
+                 <button class="btn flex-item-1" id="numkey">4</button>
+                 <button class="btn flex-item-2" id="numkey">5</button>
+                 <button class="btn flex-item-3" id="numkey">6</button>
+             </div>
+             <div class="flex">
+                 <button class="btn flex-item-1" id="numkey">1</button>
+                 <button class="btn flex-item-2" id="numkey">2</button>
+                 <button class="btn flex-item-3" id="numkey">3</button>
+             </div>
+             <div class="flex">
+                 <button class="btn flex-item-1" id="numkey">0</button>
+                 <button class="btn flex-item-2" id="numkey">.</button>
+                 <button class="btn flex-item-3 equals" id="getResult">=</button>
+             </div>
+         </div>
+     </div>
+     </div>
+     <script src="temp.js"></script>
+ </body>
+ 
+ </html>
