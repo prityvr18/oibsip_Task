@@ -1,0 +1,60 @@
+body{
+    background-color: rgba(128, 128, 128, 0.927);
+}
+#h1-1{
+    border-radius:10px;
+    background-color:tomato;
+    padding:10px;
+    animation-name:owais;
+    animation-duration:3s;
+    animation-iteration-count:infinite ;
+    letter-spacing:1px;
+    text-transform:uppercase ;
+    
+}
+@keyframes owais{
+    0%{
+       color:red; 
+       background:blue;
+    }
+    10%{
+        color:blue;
+        background-color:yellow;
+    }
+    20%{
+        color:green;
+        background-color:purple;
+    }
+    30%{
+        color:yellow;
+        background-color:green;
+    }
+    40%{
+        color:purple;
+        background-color:cyan;
+    }
+    50%{
+        color:brown;
+        background-color:tomato;
+    }
+    60%{
+        color:cyan;
+        background-color:brown;
+    }
+    70%{
+       color:red; 
+       background:blue;
+    }
+    80%{
+        color:blue;
+        background-color:yellow;
+    }
+    90%{
+        color:green;
+        background-color:purple;
+    }
+    100%{
+        color:yellow;
+        background-color:green;
+}
+}
